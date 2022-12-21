@@ -1,0 +1,60 @@
+Test Run #1
+Enter the number of assignments (between 1 and 25): 5
+Enter score: -1000
+Enter score: 2000
+Enter score: 3
+Enter score: 0
+Enter score: 4
+Original scores: -1000 2000 3 0 4 
+Sorted scores (in descending order): 2000 4 3 0 -1000 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded down) with dropped scores removed: 669
+-- program is finished running --
+
+Test Run #2
+Enter the number of assignments (between 1 and 25): 3
+Enter score: 1
+Enter score: 2
+Enter score: 3
+Original scores: 1 2 3 
+Sorted scores (in descending order): 3 2 1 
+Enter the number of (lowest) scores to drop: 1
+Average (rounded down) with dropped scores removed: 2
+-- program is finished running --
+
+Test Run #3
+Enter the number of assignments (between 1 and 25): 1
+Enter score: 5
+Original scores: 5 
+Sorted scores (in descending order): 5 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 5
+-- program is finished running --
+
+Test Run #4
+Enter the number of assignments (between 1 and 25): 10
+Enter score: -10
+Enter score: -11
+Enter score: -12
+Enter score: 1000000
+Enter score: 14
+Enter score: 15
+Enter score: 30
+Enter score: 23
+Enter score: 300
+Enter score: 15
+Original scores: -10 -11 -12 1000000 14 15 30 23 300 15 
+Sorted scores (in descending order): 1000000 300 30 23 15 15 14 -10 -11 -12 
+Enter the number of (lowest) scores to drop: 5
+Average (rounded down) with dropped scores removed: 200073
+-- program is finished running --
+
+Test Run #4
+Enter the number of assignments (between 1 and 25): 1
+Enter score: 3
+Original scores: 3 
+Sorted scores (in descending order): 3 
+Enter the number of (lowest) scores to drop: 1
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
